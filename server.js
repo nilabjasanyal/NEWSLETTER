@@ -18,8 +18,8 @@ app.get("/", function(req, res){
 })
 
 app.post("/", function(req, res){
-    var firstName = req.body.firstname;
-    var lastName = req.body.lastname;
+    var firstName = req.body.fname;
+    var lastName = req.body.lname;
     var email = req.body.email;
     
     var data = {
