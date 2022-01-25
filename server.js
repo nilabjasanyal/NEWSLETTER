@@ -5,9 +5,9 @@ const request = require("request");
 
 require('dotenv').config();
 
-var apiKey = process.env.api; //Here your API key from Mailchimp
+var apiKey = "9e7d1bc2b1c2481d6b6759d2ceb19602-us20"; //Here your API key from Mailchimp
 
-var listID = process.env.id; //Here your list id
+var listID = "a6f0fa06a4"; //Here your list id
 
 app.use(bodyParser.urlencoded({extended: true}));
 
