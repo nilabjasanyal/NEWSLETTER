@@ -41,7 +41,7 @@ app.post("/", function(req, res){
         url: "https://us20.api.mailchimp.com/3.0/lists/" + listID,
         method: "POST",
         headers: {
-            "Authorization": "anagutjor " + apiKey
+            "auth": "anagutjor:" + apiKey
         },
         body: jsonData
     }
